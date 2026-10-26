@@ -1,0 +1,39 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="163911" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="CustomHouseholds" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Edit the household count of any residential building; applies to all identical buildings. RWH-compatible." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="Click a residential building and set a custom household count (absolute). The override applies to every identical building (same asset and level), persists across sessions, and works with or without Realistic Workplaces and Households. Existing excess households are evicted when reducing capacity." /-->
+	<LongDescription>
+Click a residential building and set a custom household count (absolute). The override applies to every identical building (same asset and level), persists across sessions, and works with or without Realistic Workplaces and Households. Existing excess households are evicted when reducing capacity.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshots/01.jpg" />
+	<Screenshot Value="Properties/Screenshots/02.jpg" />
+	<Screenshot Value="Properties/Screenshots/03.jpg" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.6.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--<ChangeLog>
+	</ChangeLog>-->
+	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
+	<ExternalLink Type="" Url="" />
+	<!--Supported values Public, Private, Unlisted-->
+	<AccessLevel Value="Public" />
+</Publish>
